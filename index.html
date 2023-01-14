@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MonoPay</title>
+    <!--boostrap-link-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<!--css-link-->
+<link rel="stylesheet" href="css/styles.css">
+<!--fonts-link-->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<!--font-awesome-->
+<script src="https://kit.fontawesome.com/a399d0442d.js" crossorigin="anonymous"></script>
+<!--boostrap-icon-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+<section id="nav-section">
+
+    <nav class="navbar  navbar-expand-lg">
+        <div class="container-fluid ms-auto">
+          <button class="navbar-brand-btn"><a class="navbar-brand" href="#"><h1>MP</h1></a></button> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Personal
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><class="fa-regular fa-calendar-check fa-2x"></i><h4>Plan:</h4><span>Access financial tools and guides</span></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-regular fa-calendar-check fa-2x"></i><h4>Save:</h4><span>Earn better interest than your bank</span></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-warehouse fa-2x"></i><h4> Invest:</h4><span>Put a global portfolio in one app</span></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Business
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cubes fa-2x"></i><h4>Sprout:</h4> <span> put your business idle cash to work</span></a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+                
+                 <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Developer
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-folder-open fa-2x"></i><h4>Docs:</h4><span> Offer investment services in your app</span></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-laptop-code fa-2x"></i><h4>Embed:</h4><span> Read how to integrate the Embed API</span></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-circle-nodes fa-2x"></i><h4>Connect:</h4><span> Join Embed on slack</span></a></li>
+                </ul>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Learn</a>
+              </li>
+            </ul>
+            <div id="liveAlertPlaceholder"></div>
+<button type="button" class="log-in btn btn-primary" id="liveAlertBtn">Log In</button>
+            <form class="d-flex" role="search">
+              <button class="sign-up btn btn-outline-primary" type="submit">Sign Up For Free</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+</section>
+
+  <section id="testimonial">
+    <div class="row">
+
+      <div class="testimonial-box1 col-lg-6 me-auto ms-auto">
+      <img class="lady-img" src="images/lady-image.png" alt="responsive image">
+      </div>
+
+      <div class="testimonial-box2 col-lg-6 ms-auto me-auto">
+        <h1 class="testimonial-text">Put your <br> money to work. </h1>
+        <h3 class="testimonial-span">Invest wisely. Manage risk.<br>Grow wealth.</h3> <br>
+        <div class="container-fluid-testimonial">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Your Email..." aria-label="Search">
+            <button class="btn btn-primary" type="submit">Start Investing</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+<section id="center">
+  <div class="center-d">
+  <h1 class="center-text">Get financial freedom</h1>
+<span class="center-span">Plan towards your dream home, fund your kid's education, travel the world, all in one app.</span>
+</div>
+</section>
+
+<section id="features">
+<div class="row">
+  <div class="feature-box1 col-xs-6 ms-auto me-auto">
+    <h6>Savings</h6>
+      <h4>Create multiple savings plans</h4>
+    <span class="feature-span">Earn better interest rates than your bank</span> 
+    <br>
+    <button type="button" class="feature-btn btn btn-primary" id="liveAlertBtn">START SAVING</button>
+    <div class="saving-box">
+      <div class="saving-box-inner">
+      <img class="savings-image1" src="images/savings.png" alt="">
+      <img class="savings-image2" src="images/app-screenshot-savings-in-nigeria.png" alt="">
+      </div>
+    </div>
+      </div>
+      
+      <div class="feature-box2 col-xs-6 ms-auto me-auto">
+        <h6>Circle</h6>
+        <h4>Save with friends</h4>
+        <span class="feature-span">Stay motivated and have fun saving with friends and family</span>
+        <br>
+      <button type="button" class="feature-btn btn btn-primary" id="liveAlertBtn">JOIN A CIRCLE</button>
+      <div class="circles-box">
+        <div class="circles-box-inner">
+        <img src="svg/circles.svg" alt="" class="circles-image1">
+        <img src="images/circles-online-joint-savings-in-nigeria.png" alt="" class="circles-image2">
+      </div>
+      </div>
+        </div>
+</div>
+
+
+
+
+
+
+<div class="row">
+  <div class="feature-box3 col-xs-6 ms-auto me-auto">
+    <h6>Mutual Funds</h6>
+      <h4>Play the long-term game</h4>
+    <span class="feature-span">Invest in diverse and quality mutual funds with any amount</span> 
+    <br>
+    <button type="button" class="feature-btn btn btn-primary" id="liveAlertBtn">START SAVING</button>
+    <div class="mutual-box">
+      <div class="mutual-box-inner">
+      <img src="svg/mutual-funds.svg" alt="" class="mutual-image1">
+      <img src="images/app-screenshot-mutual-funds-app-nigeria.png" alt="" class="mutual-image2">
+    </div>
+    </div>
+    </div>
+
+    <div class="feature-box4 col-xs-6 ms-auto me-auto">
+      <h6>Emergency Fund</h6>
+      <h4>Save for the rainy day</h4>
+      <span class="feature-span">Build a safety net for unexpected expenses</span>
+      <br>
+    <button type="button" class="feature-btn btn btn-primary" id="liveAlertBtn">CREATE YOUR EMERGENCY PLAN</button>
+    <div class="emergency-box">
+      <div class="emergency-box-inner">
+      <img src="svg/emergency.svg" alt="" class="emergency-image1">
+      <img src="images/online-app-for-emergency-funds-in-nigeria.png" alt="" class="emergency-image2">
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<div class="row">
+  <div class="feature-box5 col-xs-6 ms-auto me-auto">
+    <h6 class="stash">Stash</h6>
+    <h4 class="stash">Your secure digital wallet</h4>
+  <span class="stash-span">Send and receive cash in seconds for free. You only need their username.</span> 
+  <br>
+  <button type="button" class="feature-btn btn btn-primary" id="liveAlertBtn">EXPLORE IT NOW</button>
+  <div class="stash-box">
+    <div class="stash-box-inner">
+    <img src="svg/stash.svg" alt="" class="stash-image1">
+    <img src="images/cowrywise-stash-app-screenshot.png" alt="" class="stash-image2">
+  </div>
+  </div>
+  </div>
+<br>
+<div class="feature-box6 col-xs-6 ms-auto me-auto">
+  <h6>US Stocks and bonds (Coming soon)</h6>
+  <h4>Grow your global portfolio</h4>
+<br>
+<button type="button" class="feature-btn btn btn-primary" id="liveAlertBtn">GET EARLY ACCESS</button>
+<div class="stocks-box">
+  <div class="stocks-box-inner">
+  <img src="svg/stocks.svg" alt="" class="stocks-image1">
+<img src="images/online-app-buy-foreign-stocks-online-in-nigeria.png" alt="" class="stocks-image2">
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="steps">
+<div class="row">
+<div class="steps-box col-lg-6 me-5">
+<img class="app-img" src="svg/app-screenshot-investment-platform-nigeria.png" alt="">
+
+</div>
+<div class="steps-box col-lg-6 ms-5">
+  <div>
+    <h1>Start building wealth in 5 minutes</h1>
+  </div>
+
+<div class="steps-text">
+   <h4><span class="steps-span">01</span>Create an account.</h4>
+   <p>Sign up for an account with your name, email and phone number.</p>
+</div>
+
+<div class="steps-text">
+  <h4><span class="steps-span">02</span>Add a payment method.</h4>
+  <p>Using your debit card, bank account, USSD, QR Code, setup your first plan.</p>
+</div>
+
+<div class="steps-text">
+  <h4><span class="steps-span">03</span>Watch your money grow.</h4>
+  <p>Sit back, relax & let your money work for you all day, everyday.</p>
+</div>
+<button type="button" class="steps-btn btn btn-primary btn-lg" id="liveAlertBtn">Sign Up Now</button>
+</div>
+</div>
+</section>
+
+<section id="security">
+   <div class=security-text>
+    <h2>Keeping your money safe is our business.</h2>
+    <p>Trust is our currency. We are committed to the security of your money and the protection of your account.</p>
+    <button type="button" class="security-btn btn btn-primary btn-lg" id="liveAlertBtn">Learn More</button>
+   </div>
+
+   <div class="row">
+<div class="security-info col-lg-6">
+  <h4>Bank-grade Security</h4>
+ <p>We are PCI-DSS compliant to ensure security of your data electronically. We also provide you with an option to set up 2FA for key transactions on your account. 2FA serves as an extra layer of protection to ensure 
+  the security of your account beyond just a username and password.</p> 
+<div>
+  <h4>Regulatory Compliance</h4>
+ <p> MonoPay is a duly registered fund manager with the Securities and Exchange Commission (SEC) of Nigeria. All our activities are in full compliance with regulatory requirements to the ultimate protection of our clients.</p>
+</div>
+</div>
+
+
+<div class="security-info col-lg-6">
+  <h4>Assets Custody</h4>
+ <p> Our users’ financial assets are held with a licensed custodian, Zenith Nominees Limited, for safekeeping to prevent misappropriation, misuse, theft, and/or loss, and in accordance with applicable law.</p>
+  
+  
+ <h4>Best-In-Class Assets</h4> 
+ <p> All the investment options listed on MonoPay, are carefully screened, managed by professional fund managers. All the diverse mutual funds registered with the SEC, with standard third-party custodian structure.</p>
+
+</div>
+
+   </div>
+</section>
+ 
+<section id="perks">
+  <div class="perks-box">
+    <h5>WHY MonoPay ?</h5>
+   <h1>Got Sec license ?<span>YUP!</span></h1> 
+   <h1>Saving  Charges ? <span>Nope!</span></h1>
+   <h1>Great Interest Rates ? <span>Confam!</span></h1>
+   <h1>Maintenance Fee ? <span>No</span></h1>
+   <h1>Convinced? <span>Sign up now !!!</span></h1>
+  </div>
+</section>
+
+<section id="testimonial">
+<div class="row">
+<div class="testimonial-box col-lg-6 ms-auto">
+  <div class="content">
+    <h1>4.4<span>/5</span></h1>
+    <i class="icon fa-solid fa-star"></i>
+    <i class="icon fa-solid fa-star"></i>
+    <i class="icon fa-solid fa-star"></i>
+    <i class="icon fa-solid fa-star"></i>
+  <i class="icon fa-solid fa-star-half-stroke"></i>
+     
+      <button type="button" class="testimonial-btn btn btn-primary" id="liveAlertBtn">
+        <i class=" download-btn fa-brands fa-google-play fa-1x"> Download</i></button>
+  </div>
+<div class="text">
+  <h4>Available on the Play Store</h4>
+  <p>“User interface is fantastic, deposits and withdrawals flawless and fast. I wish I had discovered this years ago, would have been a millionaire by now” - Obiora, Nov 2021.</p>
+  <button type="button" class="text-btn btn btn-primary btn-lg" id="liveAlertBtn">Download Now</button>
+</div>
+    
+<div>
+    
+
+  
+</div>
+</div>
+
+ <div class="testimonial-box col-lg-6 me-auto">
+  <div class="content">
+    <h1>4.4<span>/5</span></h1>
+     <i class="icon fa-solid fa-star"></i>
+    <i class="icon fa-solid fa-star"></i>
+    <i class="icon fa-solid fa-star"></i>
+    <i class="icon fa-solid fa-star"></i>
+  <i class="icon fa-solid fa-star-half-stroke"></i>
+    <button type="button" class="testimonial-btn btn btn-primary" id="liveAlertBtn">
+      <i class="download-btn fa-brands fa-apple fa-1x"> Download</i></button>
+
+  </div>
+  <div class="text">
+    <h4>Available on the App Store</h4>
+    <p>“I just don't know what to say about this app all i know is that it's awesome, it's been 2 years plus and I haven't had a reason to complain.” - Henrietta, December.</p>
+    <button type="button" class="text-btn btn btn-primary btn-lg" id="liveAlertBtn">Download Now</button>
+  </div>
+    
+ </div>
+</div>
+</section>
+
+<section id="contact">
+
+
+    <div class="contact-box col-md-5 col-lg-6 col-xl-7">
+        <div class="contact-text">
+          <h1>Sign up for free. <br> Start investing today.</h1>
+          
+        </div>
+          <div class="contac-box">
+            <form>
+            <input type="text" placeholder="Enter Your Email">
+            <button>
+                <span>
+                    Sign Up
+                </span>
+            </button>
+            </form>
+          </div>
+        </div>
+
+</section>
+
+<footer id="footer-general">
+  <div class="row">
+<div class="table col-lg-3">
+  <h4>Resources</h4>
+  <ul>
+<li><a href="">Customers Stories</a></li>
+<li><a href="">Media</a></li>
+<li><a href="">FAQs</a></li>
+<li><a href="">Security</a></li>
+<li><a href="">Estimate Your Interest</a></li>
+<li><a href="">Plan Education</a></li>
+<li><a href="">Blog</a></li>
+<li><a href="">Help Center</a></li>
+  </ul>
+
+</div>
+
+<div class="table col-lg-3">
+  <h4>Product</h4>
+  <ul>
+  <li><a href="">Saving Plans</a></li>
+  <li><a href="">Investment Plans</a></li>
+  <li><a href="">Mutual Funds</a></li>
+  <li><a href="">Stash</a></li>
+  <li><a href="">Embred API</a></li>
+  <li><a href="">Sprout</a></li>
+  <li><a href="">Circles</a></li>
+  <li><a href="">Halal</a></li>
+  <li><a href="">Got a Suggestion?</a></li>
+  </ul>
+</div>
+
+<div class="table col-xs-6 col-md-3">
+  <h4>Company</h4>
+  <ul>
+<li><a href="">About Us</a></li>
+<li><a href="">Press</a></li>
+<li><a href="">Careers</a></li>
+<li><a href="">Ambassadors</a></li>
+<li><a href="">Privacy</a></li>
+<li><a href="">Terms</a></li>
+  </ul>
+</div>
+
+<div class="table col-xs-6 col-md-3"> 
+  <h4>Contact</h4>
+  <ul>
+<li><a href="">Support: <br>@MonoPay.com</a></li>
+<li><a href="">Whatsapp</a></li>
+  </ul>
+  </div>
+</div>
+
+<div class="addy">
+  
+</div>
+<p class="footer-text">MonoPay Financial Technology Limited (“MonoPay”) is a fund manager duly licensed by the Securities and Exchange Commission (SEC) of Nigeria.</p>
+<p class="footer-text">Our mutual funds are managed by our fund management partners and made available to our clients through our web and mobile applications. The fund manager for each mutual fund is disclosed on every mutual fund’s profile page. Any historical returns or expected returns are hypothetical in nature and may not reflect actual future performance. View full list of available mutual funds on MonoPay.</p>
+<p class="footer-text">Stash account is a 10-digit virtual bank account number in line with the Nigeria Uniform Bank Account Number (NUBAN) numbering system. The NUBAN accounts are generated with the names of selected banks through our payment partners. In order for a user to be eligible for Stash account number, they must have completed their KYC and added their Bank Verification Number (BVN). Stash is used for the purpose of receiving money transfers in place of a regular debit card. It also receives the proceeds from the sale of any mutual fund on MonoPay.</p>
+<p class="footer-text">The content on this website does not constitute a complete description of MonoPay’s offerings and services. By using this website, you accept our Terms of Use and Privacy Policy.</p>
+<p class="footer-text">Google Play and the Google Play logo are trademarks of Google LLC. Apple, the Apple logo, and iPhone are trademarks of Apple Inc. registered in the U.S.</p>
+<p class="footer-text">©2023 Eseha Joseph Ilerioluwa. All rights reserved</p>
+</footer>
+<hr>
+
+
+
+
+<div class="backdrop"><a class="backtop fa-regular fa-circle-up fa-2x"href="#"></a></div>
+</body>
+</html> 
